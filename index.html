@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Средство</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/fonts.css" >
+</head>
+<body >
+    <div class="intro">
+        <div class="video">
+            <video class="video__media" src="./src/video.mov" autoplay muted loop></video>
+        </div>
+        <div class="intro__content">
+            <div class="container">
+                <header>
+                    <img class="logo" src="./src/images/Logo.png" alt="">
+                    <nav>
+                        <ul class="list">
+                            <li><a href="#block__second">Состав</a></li>
+                            <li><a href="#block__third">Отзывы</a></li>
+                            <li><a href="#block__fourth">Преимущества</a></li>
+                            <li><a href="#block__fifth">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </header>
+                <section class="product">
+                    <div class="title">
+                        <h1>LevelUp - Лучшее средство </h1>
+                    </div>
+                    <div class="product__show">
+                        <div>
+                            <img class="image" src="./src/images/prod.png" alt="">
+                        </div>
+                      
+                        <div class="product__show-info">
+                            <ul class="product__show-info-list">
+                                <li>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </li>
+                                <li>
+                                    Reiciendis labore iusto voluptate repellendus nisi temporibus quaerat. 
+                                </li>
+                                <li>
+                                    Suscipit quo quibusdam quam asperiores corporis voluptatibus doloremque!
+                                </li>
+                                <li>
+                                    <button onclick="scrollFunction()" id="buttonOne" class="button">
+                                        Заказать
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="block__second" id="block__second">
+        <div class="container">
+            <div class="columns">
+                <aside class="column__aside">
+                    <div class="component">
+                        <img class="ingredient" src="./src/images/kashtan.png" alt="">
+                        Цветы каштана 
+                    </div>
+                    <div class="component">
+                        <img class="ingredient" src="./src/images/zink.png" alt="">
+                        Цинк
+                    </div>
+                    <div class="component">
+                        <img class="ingredient" src="./src/images/mak.png" alt="">
+                        Мака Перуанская
+                    </div>
+                </aside>
+                <div class="main__column">
+                    <div class="main__component">
+                        <img class="image" src="./src/images/prod.png" alt="">
+                        <button onclick="scrollFunction()" id="buttonTwo" class="second__button">
+                            Заказать
+                        </button>
+                    </div>
+                </div>
+                <aside class="column__aside">
+                    <div class="component">
+                        <img class="ingredient" src="./src/images/yohimbin.png" alt="">
+                        Йохимбин 
+                    </div>
+                    <div class="component">
+                        <img class="ingredient" src="./src/images/african.png" alt="">
+                        Кора сливы африканской
+                    </div>
+                    <div class="component">
+                        <img class="ingredient" src="./src/images/mag.png" alt="">
+                        Магний
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="block__third" id="block__third">
+        <div class="slider">
+            <div class="slides">
+               <input type="radio" name="r" id="r1" checked>
+               <input type="radio" name="r" id="r2">
+               <input type="radio" name="r" id="r3">
+               
+               <div class="slide s1">
+                  <img src="./src/images/otziv.png" alt="Изображение" class="img">
+               </div>
+               <div class="slide">
+                  <img src="./src/images/otziv2.png" alt="Изображение" class="img">
+               </div>
+               <div class="slide">
+                  <img src="./src/images/otziv1.png" alt="Изображение" class="img">
+               </div>
+            </div>
+            <div class="navigation">
+               <label for="r1" class="bar"></label>
+               <label for="r2" class="bar"></label>
+               <label for="r3" class="bar"></label>
+            </div>
+         </div>
+    </div>
+    <div class="block__fourth" id="block__fourth">
+        <div class="container">
+            <section class="doctor__product">
+                <div class="product__show">
+                    <div>
+                        <img class="image doctor__image" src="./src/images/doctor.png" alt="">
+                    </div>
+                  
+                    <div class="product__show-info second">
+                        <p>КОМПЛЕКС LEVEL UP ПОТЕНЦИАЛ (LEVEL UP «POTENTIAL FOR MEN») - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget velit aliquet sagittis id consectetur purus ut faucibus pulvinar. Iaculis eu non diam phasellus vestibulum lorem sed risus ultricies. Nunc sed blandit libero volutpat sed cras ornare arcu. Vel orci porta non pulvinar neque. Non quam lacus suspendisse faucibus. Nunc scelerisque viverra mauris in aliquam sem. Phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim. Pretium nibh ipsum consequat nisl vel pretium.</p>
+                    </div>
+                </div>
+                <button onclick="scrollFunction()" id="buttonThree" class="button doctor__button">
+                    Заказать
+                </button>
+            </section>
+        </div>
+    </div>
+    <div class="block__fifth" id="block__fifth">
+        <div class="container">
+
+            <div class="product__name">
+                <h2>КОМПЛЕКС LEVEL UP ПОТЕНЦИАЛ ДЛЯ МУЖЧИН</h2>
+            </div>
+
+            <div class="timer">
+                <div class="timer__text">
+                    <p>Успей купить до окончания времени скидки! </p>
+                </div>
+                <div class="timer__time">
+                    <p class="time" id="time"></p>
+                </div>
+            </div>
+
+            <div class="separate">
+
+                <div class="left__side">
+
+                    <div class="form">
+                        <p>Сделать заказ</p>
+                        
+                        <div class="input__text" data-tooltip="Имя Фамилия Отчество">
+                            <input type="text" placeholder="Имя">
+                        </div>
+    
+                        <div class="input__text" data-tooltip="+7 999 999 99 99">
+                            <input type="number" placeholder="Телефон" >
+                        </div>
+
+                        <div class="input__text">
+                            <button onclick="send()">Оформить заказ</button>
+                        </div>
+                        <p class="product__price">
+                            Старая цена: <span class="line" id="old">1500</span> &#8381; <br> <span class="animation"><span class="new" id="sale"> Новая цена 999 &#8381;</span></span>
+                        </p>
+                    </div>
+
+
+                </div>
+
+                <div class="right__side">
+                    <div class="right__side-product">
+                        <div>
+                            <img class="image" src="./src/images/prod.png" alt="">
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
